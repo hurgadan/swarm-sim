@@ -1,0 +1,5 @@
+{
+  // Конфиг сгенерится Nuxt'ом в .nuxt/ при npm install (через `nuxt prepare`).
+  // Здесь только наследование.
+  "extends": "./.nuxt/tsconfig.json"
+}

@@ -1,6 +1,6 @@
 import { ApiProperty } from '@nestjs/swagger';
 
-import type { IUploadResponse } from '../../../_contracts/upload/upload-response.type';
+import type { IUploadResponse } from '../../../_contracts/upload';
 
 export class UploadResponseDto implements IUploadResponse {
   @ApiProperty({ example: 'b5bf5189-44b3-4b36-87ae-4069847f547d' })

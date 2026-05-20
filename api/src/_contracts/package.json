@@ -1,0 +1,22 @@
+{
+  "name": "@hurgadan/swarm-sim-contracts",
+  "version": "0.1.0",
+  "description": "Shared contracts and types for SwarmSim",
+  "private": false,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hurgadan/swarm-sim.git",
+    "directory": "apps/api/src/_contracts"
+  },
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json"
+  }
+}

@@ -1,6 +1,6 @@
 {
   "name": "@hurgadan/swarm-sim-contracts",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Shared contracts and types for SwarmSim",
   "private": false,
   "repository": {
